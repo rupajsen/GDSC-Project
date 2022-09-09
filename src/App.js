@@ -30,7 +30,8 @@ class App extends React.Component {
 
 		return (
 		<div className = "App">
-			<h1> Create an application which fetches and displays a text from the given URL </h1> {
+			<h1> Create an application which fetches and displays a text from the given URL </h1> 
+			<h1> Creator name: RUPAJ SEN ; RA2111003010064</h1>{
 				items.map((item) => (
 				<ol key = { item.id } >
 					Title: { item.title },<div></div>
